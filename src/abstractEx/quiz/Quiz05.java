@@ -28,7 +28,7 @@ public class Quiz05 {
 
 }
 
-//동물 클래스
+// 동물 클래스 (추상 클래스)
 abstract class Animal2 {
 
 	public void sleep() {
@@ -38,7 +38,7 @@ abstract class Animal2 {
 	public abstract void move();
 }
 
-//사람 클래스
+// 사람 클래스
 class Human2 extends Animal2 {
 
 	@Override
@@ -53,7 +53,7 @@ class Human2 extends Animal2 {
 
 }
 
-//호랑이 클래스
+// 호랑이 클래스
 class Tiger2 extends Animal2 {
 
 	@Override

@@ -20,13 +20,12 @@ public class Ex01 {
 		noteBook.turnOff();
 		noteBook.display();
 		noteBook.typing();
-		
-		
+			
 	}
 
 }
 
-// 컴퓨터 클래스
+// 컴퓨터 클래스(추상 클래스)
 abstract class Computer {
 
 	// 자식 클래스가 공통으로 사용하는 일반 메소드
